@@ -25,7 +25,7 @@ function Time(){
    }else if (dayCheck == 7){
        day = "Pazar";
    }
-   document.getElementById("clk").innerHTML = hour + "." + minute  + "." + second + " " + day;
+   document.getElementById("clk").innerHTML = hour + ":" + minute  + ":" + second + " " + day;
 };
 setInterval(function(){Time()},1000)
 
